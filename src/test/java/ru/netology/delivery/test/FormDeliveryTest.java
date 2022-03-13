@@ -47,6 +47,7 @@ public class FormDeliveryTest {
         var firstMeetingDate = generateDate(daysToAddForFirstMeeting);
         var daysToAddForSecondMeeting = 10;
         var secondMeetingDate = generateDate(daysToAddForSecondMeeting);
+
         $("[data-test-id=city] input").setValue(DataGenerator.generateCity());
         $("[data-test-id=date] input").sendKeys(DataGenerator
                 .generateDate(daysToAddForFirstMeeting));
