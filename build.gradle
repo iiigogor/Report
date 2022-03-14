@@ -15,11 +15,11 @@ allure {
     version = '2.16.1'
     useJUnit5 {
         version = '2.16.1'
-    }
-    repositories {
+    }   
+}
+ repositories {
         mavenCentral()
     }
-}
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
